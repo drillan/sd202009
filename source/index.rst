@@ -15,6 +15,7 @@
    numpy
    pandas
    visualization
+   columns
 
 Indices and tables
 ==================
