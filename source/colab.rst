@@ -43,7 +43,9 @@ Googleアカウントによるログインを行っていない場合には「�
    import seaborn as sns
 
    tips = sns.load_dataset("tips")
-   sns.catplot(data=tips, x="time", y="tip", kind="violin")
+   sns.catplot(
+    data=tips, x="time", y="tip", kind="violin"
+   )
 
 コードセルを実行すると :numref:`colab_run_code` のようにノートブックにグラフが埋め込まれます。このようにノートブックにコードと実行結果を保存することで、あとで読み返したり、第三者に共有するのに便利です。
 
